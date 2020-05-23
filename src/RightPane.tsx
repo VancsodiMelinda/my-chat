@@ -34,7 +34,7 @@ export class RightPane extends Component<{ conversation?: ConversationDto, onBac
     }
 
     render()
-    {   
+    {
         return (
             <div className="right-pane column">
                 { this.props.conversation &&
@@ -56,7 +56,5 @@ export class RightPane extends Component<{ conversation?: ConversationDto, onBac
                 }
             </div>
         );
-        
-        
     }
 }

@@ -12,6 +12,8 @@ export class Main extends Component
     render()
     {
         let className = "main row " + ( this.state.selectedConversation ? "right" : "left" );
+        console.log(className);
+
         return (
             <div className={ className }>
                 <LeftPane
