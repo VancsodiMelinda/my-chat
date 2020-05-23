@@ -138,7 +138,7 @@ button:hover {
 
 .right-pane {
   border: solid #aaa;
-  border-width: 0 0 0 10px;
+  border-width: 0 0 0 0px;
 }
 
 .right-pane .conversation-header {
