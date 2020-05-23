@@ -165,7 +165,7 @@ button:hover {
 
 @media (max-width: 650px) {
   .right-pane {
-    border-width: 0 0 0 0px;
+    border-width: 0 0 0 0;
   }
 }
 
